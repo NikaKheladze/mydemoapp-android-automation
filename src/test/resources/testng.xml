@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="My Demo App - Android" configfailurepolicy="continue" verbose="1">
+    <test name="Android regression" preserve-order="true">
+        <classes>
+            <class name="com.mydemoapp.automation.tests.LoginTest"/>
+            <class name="com.mydemoapp.automation.tests.NavigationTest"/>
+            <class name="com.mydemoapp.automation.tests.CartTest"/>
+            <class name="com.mydemoapp.automation.tests.CheckoutTest"/>
+            <class name="com.mydemoapp.automation.tests.LogoutTest"/>
+        </classes>
+    </test>
+</suite>
