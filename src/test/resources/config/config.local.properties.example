@@ -1,0 +1,6 @@
+# Copy to config.local.properties (git-ignored) and keep only the keys you want to override locally.
+# device.name=Pixel_8_API_35
+# udid=emulator-5554
+# platform.version=15
+# app.path=apps/mda-2.3.0-27.apk
+# appium.server.url=http://127.0.0.1:4723
